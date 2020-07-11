@@ -77,7 +77,8 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn, .present .present_btn {
+.promo .promo_btn,
+.present .present_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -271,4 +272,62 @@ h2.title {
     font-weight: 400;
     line-height: 43px;
     text-align: center;
+}
+
+.firstMeet {
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+
+.firstMeet .firstMeet_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.firstMeet .firstMeet_header {
+    margin-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.firstMeet .firstMeet_time {
+    margin-top: 30px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.firstMeet .firstMeet_subheader {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+    text-align: center;
+}
+
+footer .links a, footer .links span, .contact_number {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contact_number {
+    margin-top: 4px;
 }
