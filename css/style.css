@@ -77,7 +77,7 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .present .present_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -250,4 +250,25 @@ h2.title {
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
+}
+
+.present {
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 87px 0;
+}
+
+.present .present_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.present .present_descr {
+    padding: 42px 4px 0 5px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
 }
